@@ -1,0 +1,171 @@
+.main-heading {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.main-heading .list a {
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+
+}
+
+.div button {
+    background-color: transparent;
+    border: none;
+}
+
+.main-body {
+    background-image: linear-gradient(#0000ff82, #0000ff96), url(../front-end/image/mockup/pic/banner_image.jpg);
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 180px;
+    text-align: center;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0px;
+
+}
+
+section button {
+    background-color: greenyellow;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.click:hover {
+    background-color: darkorange;
+}
+
+section p {
+    font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pet {
+    text-align: center;
+    background-color: rgb(29, 148, 218);
+    padding-top: 5px;
+
+
+}
+
+.cancer {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.aids {
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+}
+
+.fever {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.div3 {
+    display: flex;
+
+}
+
+.div3>div {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.fix {
+    padding-bottom: 50px;
+    font-family: cursive;
+}
+
+.run {
+    display: block;
+
+}
+
+/* .one{
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+} */
+
+
+
+
+
+
+.full {
+    text-align: center;
+    background-image: linear-gradient(#ff00005e, #ffa5007a), url(./image/mockup/pic/pet_care_banner.png.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.block{
+    display: block;
+}
+.round{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 30px;
+}
+.round >div{
+    border: 10px solid black;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 50px;
+
+}
+.title-here{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.title-here +p{
+font-style: oblique;
+}
+.round p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
