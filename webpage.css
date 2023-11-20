@@ -1,8 +1,18 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-transform: capitalize; 
+    font-variant: small-caps;
+    margin: 0px;
+}
 .main-heading {
-    background-color: blue;
+    background-color: #0000ff63;
     display: flex;
     justify-content: space-between;
-    padding: 15px 50px;
+    padding: 15px 15px;
+    /* position: fixed; */
+    /* width: 100%; */
+    background-size: cover;
+    
 }
 
 .list {
@@ -12,7 +22,7 @@
 
 .main-heading .list a {
     color: white;
-    padding: 10px 40px;
+    padding: 10px 10px;
     text-decoration: none;
 }
 
@@ -36,16 +46,18 @@
     color: white;
     padding-right: 30px;
     padding-left: 30px;
+    padding-top: 250px;
+
 
 }
 
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.main-body {
+     font-family: cursive;
     font-size: xx-large;
     font-weight: bold;
-    margin: 0px;
+    margin: 0px; 
 
-}
+} 
 
 section button {
     background-color: greenyellow;
@@ -61,9 +73,10 @@ section button {
     background-color: darkorange;
 }
 
-section p {
-    font-size: medium;
+.main-body p {
+    font-size: 25px;
 }
+ 
 
 
 
@@ -80,6 +93,7 @@ section p {
     text-align: center;
     background-color: rgb(29, 148, 218);
     padding-top: 5px;
+    padding-bottom: 30px;
 
 
 }
@@ -105,10 +119,10 @@ section p {
 
 }
 
-.div3>div {
+/* .div3>div {
     padding-right: 50px;
     padding-left: 50px;
-}
+} */
 
 .fix {
     padding-bottom: 50px;
@@ -136,7 +150,7 @@ section p {
     text-align: center;
     background-image: linear-gradient(#ff00005e, #ffa5007a), url(./image/mockup/pic/pet_care_banner.png.jpg);
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 .block{
     display: block;
@@ -151,8 +165,8 @@ section p {
 .round >div{
     border: 10px solid black;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     padding: 50px;
 
 }
@@ -169,3 +183,1039 @@ font-style: oblique;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.section-4{
+    background-color: rgb(135, 80, 17);
+     padding-top: 100px; 
+    padding-bottom: 100px; 
+
+}
+.block-4{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.spa{
+    display: block;
+}
+.title-4{
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+.title-4 +p{
+    font-variant: small-caps;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+.order-4{
+    background-color: yellowgreen;
+    width: 250px;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+/* .two{
+    padding-left: 50px;
+} */
+
+
+
+
+
+
+
+
+
+
+.section-5{
+    background-color:#a6e22ba8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.block-5{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+.spa{
+    display: block;
+}
+.title-5{
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+.title-5 +p{
+    font-variant: small-caps;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+.order-4{
+    background-color: yellowgreen;
+    width: 250px;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.section-6{
+    background-color: darkmagenta;
+    padding-top: 50px;
+
+}
+.title-6{
+    text-align: center;
+    padding-bottom: 40px;
+    text-transform: capitalize;
+}
+.block-6{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+.block-6 >div{
+    border: 5px solid black;
+    border-radius: 1px;
+    background-color: burlywood;
+    color: black;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
+    border:none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+.sub-main-section-7{
+background-color: rgb(135 80 17 / 69%);
+padding: 50px 10px;
+color: blue;
+
+}
+*{
+    box-sizing: border-box;
+}
+.header-7{
+    text-align: center;
+}
+.span1{
+    display: block;
+}
+.full-paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.full-paragraph .para{
+    display: flex;
+    /* padding-left:17px; */
+    /* padding-right: 20px; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.span{
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.section-8{
+    background-image: linear-gradient(#0000ffa6,#adff2f96),url(image/mockup/pic/dr_Jenny.jpg);
+    padding-top: 50px;
+    background-position: center;
+}
+.para-head{
+    text-align: center;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 200px;
+    padding-top: 250px;
+}
+.elite{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.font{
+    font-size: x-large;
+    padding-right: 20px;
+}
+.rio{
+    display: block;
+}
+.lkd{
+    font-size: large;
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+
+}
+.header-foot{
+    text-align: center;
+}
+.cars {
+    list-style: none;
+    font-size: 80%;
+    padding-left: 0;
+}
+.dfx{
+    padding: 20px;
+}
+.rkd{
+    padding: 10px 20px;
+}
+.rsb{
+    padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+                        /* 12 pro */
+
+
+   @media(max-width:767px){
+
+.main-heading{
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    font-size: small;
+    /* position: fixed; */
+}
+.main-body{
+    font-size: large;
+}
+.main-body p{
+    font-size: large;
+}
+
+.div button{
+    display: none;
+}
+
+
+.list li a {
+    padding-left: 0px;
+    
+}
+
+.list{
+ padding-left: 5px;
+}
+
+
+
+
+.div3{
+    flex-direction: column;
+    align-items: center;
+}
+.round{
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.round >div{
+    margin-bottom: 30px;
+    height: 250px;
+    width: 250px;
+    border: 5px solid black;
+}
+.pet{
+    padding: 30px 15px;
+}
+.cancer{
+    padding-top: 15px;
+}
+.full{
+    padding: 30px 15px;
+    font-size: small;
+}
+
+
+
+.block-6{
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.block-6 >div{
+    margin: 10px 0px;
+    padding: 30px 0px;
+}
+
+.full-paragraph{
+    flex-direction: column;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: larger;
+    font-style: bold;
+    font-weight: 500px;
+
+}
+.full-paragraph .para{
+    width: 100%;
+}
+
+
+.block-4{
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+}
+.block-4 .two{
+    text-align: center;
+}
+
+
+.block-5{
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+
+}
+.block-5 .two{
+    text-align: center;
+}
+
+.img{
+    padding-top: 50px;
+}
+.main-body{
+    padding: 20px 15px;
+
+}
+.section-4{
+    padding: 30px 15px;
+    font-size: small;
+}
+.section-5{
+    padding: 30px 15px;
+}
+.section-6{
+    padding: 50px 15px;
+}
+.sub-main-section-7{
+    padding: 30px 15px;
+}
+.section-8{
+    padding: 30px 15px;
+    background-size: cover;
+}
+
+
+.footer {
+    flex-direction: column;
+padding: 15px 15px;
+margin-bottom: 100px;
+
+}
+.lkd{
+    flex-direction: column;
+}
+.lkd .cars li{
+    padding-bottom: 10px;
+}
+.dfx{
+    padding: 5px 0px;
+}
+.rkd{
+    padding: 10px 0px;
+}
+
+
+    
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+   /************************ laptop *******************/
+
+
+
+   @media(min-width:768px){
+
+   
+
+   body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-transform: capitalize; 
+    font-variant: small-caps;
+    margin: 0px;
+}
+.main-heading {
+    background-color: #0000ff63;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    position: fixed;
+    /* width: 100%; */
+    left: 0;
+    right: 0;
+
+    
+}
+.aka{
+    padding-left: 30px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.main-heading .list a {
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+
+}
+
+.div button {
+    background-color: transparent;
+    border: none;
+}
+
+.main-body {
+    background-image: linear-gradient(#0000ff82, #0000ff96), url(../front-end/image/mockup/pic/banner_image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 180px;
+    text-align: center;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 250px;
+
+
+}
+
+.main-body {
+     font-family: cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0px; 
+
+} 
+
+section button {
+    background-color: greenyellow;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.click:hover {
+    background-color: darkorange;
+}
+
+.main-body p {
+    font-size: 25px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+.pet {
+    text-align: center;
+    background-color: rgb(29, 148, 218);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+
+.cancer {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.aids {
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+}
+
+.fever {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.div3 {
+    display: flex;
+
+}
+
+/* .div3>div {
+    padding-right: 50px;
+    padding-left: 50px;
+} */
+
+.fix {
+    padding-bottom: 50px;
+    font-family: cursive;
+}
+
+.run {
+    display: block;
+
+}
+
+/* .one{
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+} */
+
+
+
+
+
+
+.full {
+    text-align: center;
+    background-image: linear-gradient(#ff00005e, #ffa5007a), url(./image/mockup/pic/pet_care_banner.png.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.block{
+    display: block;
+}
+.round{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 30px;
+}
+.round >div{
+    border: 10px solid black;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+
+}
+.title-here{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.title-here +p{
+font-style: oblique;
+}
+.round p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section-4{
+    background-color: rgb(135, 80, 17);
+     padding-top: 50px; 
+    padding-bottom: 50px; 
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+.block-4{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.spa{
+    display: block;
+}
+.title-4{
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+.title-4 +p{
+    font-variant: small-caps;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+.order-4{
+    background-color: yellowgreen;
+    width: 250px;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+/* .two{
+    padding-left: 50px;
+} */
+
+
+
+
+
+
+
+
+
+
+.section-5{
+    background-color:#a6e22ba8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+.block-5{
+    flex-direction: row;
+}
+
+.spa{
+    display: block;
+}
+.title-5{
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+.title-5 +p{
+    font-variant: small-caps;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+.order-4{
+    background-color: yellowgreen;
+    width: 250px;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.section-6{
+    background-color: darkmagenta;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.title-6{
+    text-align: center;
+    padding-bottom: 40px;
+    text-transform: capitalize;
+}
+.block-6{
+    display: flex;
+    text-align: center;
+    padding: 20px 0px;
+}
+.block-6 >div{
+    border: 5px solid black;
+    border-radius: 1px;
+    background-color: burlywood;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
+    /* padding-bottom: 50px; */
+    border:none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+.sub-main-section-7{
+background-color: #009bff;
+padding: 50px 10px;
+color: blue;
+
+}
+*{
+    box-sizing: border-box;
+}
+.header-7{
+    text-align: center;
+}
+.span1{
+    display: block;
+}
+.full-paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.full-paragraph .para{
+    display: flex;
+    /* padding-left:17px; */
+    /* padding-right: 20px; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.span{
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.section-8{
+    background-image: linear-gradient(#0000ffa6,#adff2f96),url(image/mockup/pic/dr_Jenny.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.para-head{
+    text-align: center;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+.elite{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 50px 15px;
+}
+.font{
+    font-size: x-large;
+    padding-right: 20px;
+}
+.rio{
+    display: block;
+}
+.lkd{
+    font-size: large;
+    display: flex;
+    align-items: left;
+    text-align: left;
+
+}
+
+.lkd .cars li{
+    padding-bottom: 10px;
+}
+.header-foot{
+    text-align: left;
+}
+.cars {
+    list-style: none;
+    text-align: left;
+    font-size: 80%;
+    padding-left: 0;
+}
+.dfx{
+    padding: 10px 20px;
+}
+.rkd{
+    padding: 10px 20px;
+}
+.rsb{
+    padding: 10px 20px;
+}
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /*********************** tab*************** */
+
+
+
+
+@media(min-width:768px) and (max-width:991px){
+.main-heading{
+    width: 100%;
+    padding: 15px 30px;
+}
+.main-body{
+    padding: 100px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pet{
+    padding: 30px 30px;
+}
+.full{
+    padding: 30px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-4{
+    padding: 50px 30px;
+}
+.div3{
+    flex-direction: column;
+}
+
+.two{
+    padding-left: 15px;
+    /* padding-right: 15px; */
+}
+.round{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.round >div{
+    margin-bottom: 40px;
+}
+body{
+    padding-bottom: 500px;
+}
+.block-6 >div{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 33%;
+}
+.footer{
+    padding: 30px 15px;
+}
+.dfx{
+    padding-left: 30px;
+}
+
+}
+
+
+
+
+                                /* iphone se */
+
+
+@media(min-width:375px) and (max-width:667px){
+
+
+.footer{
+    margin-bottom: 0px;
+}
+
+
+}
+
+
+                      
+
+
+
+
+                          /* iphone xr */
+
+
+@media(min-width:414px) and (max-width:896px) {
+
+
+    .footer {
+        padding-bottom: 230px;
+    }
+
+
+}
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
