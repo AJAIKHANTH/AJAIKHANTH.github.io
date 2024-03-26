@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>github_search</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="./githubsearc.css">
+    <link rel="stylesheet" href="../html_conversion/all.css">
+</head>
+
+<body>
+
+    <div class="container bg-black mt-5 text-center p-5 mb-5  my-class-1">
+
+        <h1 >GITHUB PROFILE</h1>
+        <form id="form">
+            <input type="text" id="search" placeholder="github username">
+            <button type="submit">submit</button>
+        </form>
+
+        <main id="main"></main>
+
+    </div>
+
+    <script>
+
+
+        const url = "https://api.github.com/users/";
+
+        // const button_search = document.getElementById("submit")
+        const input_search = document.getElementById("search");
+        const main_input = document.getElementById("main");
+
+        async function fn(e) {
+
+            e.preventDefault();//prevents form resubmit
+
+            const username = input_search.value; //input value
+
+            const json_data = await fetch(url + username);
+
+            const js_data = await json_data.json();
+
+            console.log(js_data)
+
+            console.log(
+                js_data.login,
+                js_data.followers,
+                js_data.id,
+                js_data.type,
+                js_data.created_at,
+                js_data.updated_at
+            );
+
+
+            //dom manipulation
+
+            main_input.innerHTML = `<p>name: ${js_data.login}</P>,
+                <p>name: ${js_data.followers}</P>,<p>name: ${js_data.id}</P>,
+                    <p>name: ${js_data.type}</P>,<p>name: ${js_data.created_at}</P>,
+                        <p>name: ${js_data.updated_at}</P>`
+
+
+
+            input_search.value = ""
+        }
+
+
+        document.getElementById("form").addEventListener("submit", fn)
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
